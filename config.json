@@ -1,0 +1,24 @@
+{
+  "paths": {
+    "building_shp": "path/to/building.shp",
+    "input_dir": "path/to/input",
+    "output_dir": "path/to/output"
+  },
+  "buffer": {
+    "radius_meters": 800,
+    "intersect_method": "centroid"
+  },
+  "statistics": {
+    "per_capita_living_area": 34.71,
+    "per_capita_office_area": 10,
+    "residential_class": "住宅",
+    "office_classes": ["办公", "医疗", "政府"]
+  },
+  "coordinate_systems": {
+    "input_crs": "EPSG:4326",
+    "area_calculation_crs": "EPSG:4527"
+  },
+  "encoding": {
+    "shapefile": "gbk"
+  }
+}
